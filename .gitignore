@@ -6,6 +6,7 @@ out/
 .idea
 .gitignore
 Problem Solving.iml
+out
 
 ### Eclipse ###
 .apt_generated
