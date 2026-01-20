@@ -13,6 +13,10 @@ public class SoldierAndBananas {
             int calc = price * i;
             totalPrice += calc;
         }
-        System.out.print(totalPrice - dollar);
+        if (totalPrice - dollar < 0) {
+            System.out.print(0);
+        } else {
+            System.out.print(totalPrice - dollar);
+        }
     }
 }
