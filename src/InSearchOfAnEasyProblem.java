@@ -6,7 +6,7 @@ public class InSearchOfAnEasyProblem {
 
         int test = input.nextInt();
         boolean flag = false;
-        int count = 0;
+        int count;
 
         while (test-- > 0) {
             count = input.nextInt();
